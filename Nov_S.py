@@ -619,7 +619,7 @@ if page =='Faults':
                            gridcolor='#1f3b4d', showline=True, linewidth=1, linecolor='#59656d')
         fig20.update_yaxes(title_text='Building', title_font_color='#516572', showgrid=False, showline=True, linewidth=1, tickmode='linear')
         fig20.update_traces(marker_color='#516572', marker_line_color='#516572', marker_line_width=1)
-        fig20.update_layout(title='Total Time Spent vs Building', plot_bgcolor='rgba(0,0,0,0)')
+        fig20.update_layout(title='Total Time Spent(hrs) vs Building', plot_bgcolor='rgba(0,0,0,0)')
         st.plotly_chart(fig20, use_container_width=True)
 
 
